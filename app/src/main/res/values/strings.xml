@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UI_design_week_3</string>
+    <string name="checkoutText">Checkout</string>
+    <string name="deliverToText">Deliver to</string>
+    <string name="topLocationAddress">Imran Road, Khayaban Colony,Lahore, Pakistan7</string>
+    <string name="changeAddressButton">Change Address</string>
+    <string name="paymentText">Payment Method</string>
+    <string name="atm16Digit">**** **** **** 3947</string>
+    <string name="changeCardButton">Use Other</string>
+    <string name="amountText">Amount</string>
+    <string name="visaText">Visa</string>
+    <string name="itemTotal">Item total</string>
+    <string name="deliverText">Deliver to</string>
+    <string name="deliveryFee">Delivery fee</string>
+    <string name="totalText">Total</string>
+</resources>
