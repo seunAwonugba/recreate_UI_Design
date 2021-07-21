@@ -83,7 +83,7 @@
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="24dp"
                 app:cardBackgroundColor="@color/white"
-                app:cardElevation="1dp">
+                app:cardElevation="4dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -99,7 +99,7 @@
                         android:layout_marginTop="16dp"
                         android:text="@string/deliverText"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="30sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -128,7 +128,7 @@
                         android:layout_marginStart="8dp"
                         android:width="250dp"
                         android:text="@string/topLocationAddress"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="18sp"
                         app:layout_constraintBottom_toBottomOf="@+id/locationLogoId"
                         app:layout_constraintStart_toEndOf="@+id/locationLogoId"
@@ -175,7 +175,7 @@
                         android:layout_marginTop="16dp"
                         android:text="@string/paymentText"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="30sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -203,7 +203,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:text="@string/atm16Digit"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="16sp"
                         app:layout_constraintStart_toEndOf="@+id/walletId"
                         app:layout_constraintTop_toTopOf="@+id/walletId" />
@@ -229,7 +229,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="3dp"
                         android:text="@string/visaText"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="16sp"
                         app:layout_constraintBottom_toBottomOf="@+id/walletId"
                         app:layout_constraintStart_toStartOf="@+id/atm16DigitId"
@@ -258,7 +258,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:text="@string/amountText"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="30sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -273,7 +273,7 @@
                         android:layout_marginTop="8dp"
                         android:text="@string/itemTotal"
                         android:textSize="20sp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/amountTextId" />
 
@@ -284,7 +284,7 @@
                         android:layout_marginEnd="16dp"
                         android:text="$1000"
                         android:textSize="20sp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         app:layout_constraintBottom_toBottomOf="@+id/itemTotal"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@+id/itemTotal" />
@@ -296,7 +296,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:text="@string/deliveryFee"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/itemTotal" />
@@ -308,7 +308,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
                         android:text="$50"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="20sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -320,7 +320,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
-                        android:background="@color/black"
+                        android:background="@color/darkPrimary"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/deliveryFeeId">
@@ -334,8 +334,9 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:text="@string/totalText"
-                        android:textColor="@color/black"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="20sp"
+                        android:textFontWeight="900"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/view" />
 
@@ -346,7 +347,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="16dp"
                         android:text="$1050"
-                        android:textColor="@color/black"
+                        android:textFontWeight="700"
+                        android:textColor="@color/dark_shade_of_blue"
                         android:textSize="20sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/view" />
