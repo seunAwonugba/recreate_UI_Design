@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         /**
          * Grab switchInstance by its ID
          */
-        switchInstance=findViewById(R.id.switchId)
+        switchInstance = findViewById(R.id.switchId)
         switchInstance.setOnClickListener { darkMode() }
 
 

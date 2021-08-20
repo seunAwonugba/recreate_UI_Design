@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#3E4462</color>
-    <color name="dark_shade_of_blue">#3E4462</color>//text colors
+    <color name="dark_shade_of_blue">#3E4462</color>    //text colors
     <color name="shade_of_pink">#ff0266</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
